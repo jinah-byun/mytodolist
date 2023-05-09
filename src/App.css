@@ -10,7 +10,8 @@
   padding: 0 20px;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid black;
+  border: 1px solid gray;
+  border-radius: 10px;
 }
 .input-div {
   display: flex;
@@ -62,6 +63,7 @@
 .list-wrapper {
   display: flex;
   flex-wrap: wrap;
+
   gap: 12px;
 }
 .todo-container {
