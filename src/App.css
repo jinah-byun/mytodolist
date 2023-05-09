@@ -7,11 +7,15 @@
 .title {
   height: 45px;
   display: flex;
+  position: absolute;
+  width: 1160px;
   padding: 0 20px;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid gray;
+  background-color: pink;
   border-radius: 10px;
+  font-size: large;
+  font: bold;
 }
 .input-div {
   display: flex;
@@ -48,7 +52,8 @@
   border-radius: 10px;
 }
 .list-container {
-  padding: 0 24px;
+  align-items: center;
+  padding: 40px;
 }
 .under-title {
   font-size: 24px;

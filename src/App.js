@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
+import "./곰돌이 푸.png";
 
 function Custombutton({ work, handleshift }) {
   if (work.isDone === false) {
@@ -58,6 +59,7 @@ function App() {
   const [works, setWorks] = useState([
     { id: 1, title: "입문주차", body: "props이해하기", isDone: false },
     { id: 2, title: "숙련주차", body: "리덕스이해하기", isDone: false },
+    { id: 3, title: "심화주차", body: "리덕스툴킷 이해하기", isDone: false },
   ]);
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
@@ -93,6 +95,14 @@ function App() {
       <div className="title">
         <div>My Todo List</div>
         <div>React</div>
+      </div>
+      <div>
+        <img
+          src={require("./곰돌이 푸.png")}
+          width="1200"
+          height="300"
+          alt="testA"
+        />
       </div>
       <div className="input-div">
         <div className="input-bar">
